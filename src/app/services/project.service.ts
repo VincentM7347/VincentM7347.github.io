@@ -40,7 +40,7 @@ export class ProjectService {
       description: 'Cactus Diary ist eine umfassende Tagebuchanwendung, die Benutzern einen sicheren und personalisierten Raum für ihre Gedanken bietet.',
       shortDescription: 'Dieses Projekt ist eine Full-Stack-Webanwendung zur Erstellung und Verwaltung von digitalen Tagebucheinträgen. Die Anwendung ist als moderne Single-Page-Application (SPA) konzipiert, die eine reaktive und schnelle Benutzererfahrung ohne ständiges Neuladen der Seite ermöglicht. Dies war ein Hochschulprojekt und ich habe es mit einem Team von 3 Personen entwickelt. Mein Beitrag umfasste die Implementierung des Dashboards, die Einzelansicht der Einträge und das Abrufen der Einträge von der API.',
       architecture: ['Die Anwendung folgt einer klassischen Client-Server-Architektur: ',
-        'Frontend (Client): Eine im Browser ausgeführte Single-Page-App, die mit Angular entwickelt wurde. Sie ist für die gesamte Darstellung und Interaktion mit dem Benutzer zuständig.',
+        'Frontend (Client): Eine im Browser ausgeführte Single-Page-App, die mit LitElement entwickelt wurde. Sie ist für die gesamte Darstellung und Interaktion mit dem Benutzer zuständig.',
         'Backend (Server): Ein leichtgewichtiger Server auf Basis von Node.js und dem Express.js-Framework. Er stellt eine REST-API bereit, über die das Frontend Daten abfragen und speichern kann.',
         'API: Die Kommunikation zwischen Frontend und Backend erfolgt über eine zustandslose, JSON-basierte REST-API.'],
       coreFeatures: [
@@ -91,7 +91,7 @@ export class ProjectService {
       imageUrl: 'assets/Neptun3.png',
       screenshots: [
       ],
-      screencastUrl: 'https://www.youtube.com/embed/TCSNMx6yv7U',
+      screencastUrl: 'https://youtube.com/embed/4z7PsWd5I_Y',
       technologies: [
         { name: 'Java', iconPath: 'assets/icons/java.svg' },
         { name: 'Spring Boot', iconPath: 'assets/icons/spring.svg' },

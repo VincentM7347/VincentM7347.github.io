@@ -19,7 +19,7 @@ export class FadeInOnScrollDirective implements OnInit, OnDestroy {
           this.observer.unobserve(this.el.nativeElement); 
         }
       });
-    }, { threshold: 0.9 }); 
+    }, { threshold: 0.1 }); 
 
     this.observer.observe(this.el.nativeElement);
   }
