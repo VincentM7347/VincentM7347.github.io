@@ -1,27 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ProjectService } from '../../services/project.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
+  imports: [CommonModule, RouterModule],
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent {
-  projects = [
-    {
-    title: 'Project One',
-    description: 'Eine kurze Beschreibung des ersten Projekts.',
-    link: '#', // Link zum Projekt
-    image: 'assets/images/project1.jpg', // Pfad zu deinem Bild
-    technologies: ['Angular', 'TypeScript', 'Bootstrap']
-  },
-    {
-      title: 'Projekt Beta',
-      description: 'Ein Backend-Service für eine mobile App, geschrieben in Java mit Spring Boot.',
-      imageUrl: 'assets/images/projekt-beta.jpg',
-      technologies: ['Java', 'Spring Boot', 'MySQL'],
-      liveUrl: null,
-      githubUrl: 'https://github.com/dein-name/projekt-beta'
-    }
-  ];
+export class ProjectsComponent implements OnInit {
+  projects: any[] = [];
+
+  constructor(private projectService: ProjectService) { }
+
+  ngOnInit(): void {
+    this.projects = this.projectService.getProjects();
+  }
 }

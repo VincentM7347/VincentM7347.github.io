@@ -3,10 +3,6 @@ import { RouterOutlet } from '@angular/router';
 
 // 1. Importiere alle Komponenten, die du verwenden möchtest
 import { HeaderComponent } from './components/header/header.component';
-import { HeroComponent } from './components/hero/hero.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
-import { AboutComponent } from './pages/about/about.component';
-import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 
@@ -19,10 +15,6 @@ import { FooterComponent } from './components/footer/footer.component';
 
     // 2. Füge alle importierten Komponenten hier hinzu
     HeaderComponent,
-    HeroComponent,
-    ProjectsComponent,
-    AboutComponent,
-    ContactComponent,
     FooterComponent
   ],
   templateUrl: './app.component.html',
