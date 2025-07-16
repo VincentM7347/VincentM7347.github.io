@@ -1,7 +1,7 @@
 .contact-container {
   padding: 60px 0;
   max-width: 900px;
-  margin: 80px auto 40px auto; /* Adjust margin-top for header */
+  margin: 0 auto 40px auto; /* No top margin */
 }
 
 .social-media-section {

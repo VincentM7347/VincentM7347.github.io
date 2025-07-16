@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { Router, RouterModule } from '@angular/router';
+import { CommonModule, ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -11,4 +11,11 @@ import { CommonModule } from '@angular/common';
 })
 export class HeaderComponent {
 
+  constructor(private router: Router, private viewportScroller: ViewportScroller) { }
+
+  scrollToHomeTop(): void {
+    this.router.navigateByUrl('/').then(() => {
+      this.viewportScroller.scrollToPosition([0, 0]);
+    });
+  }
 }
