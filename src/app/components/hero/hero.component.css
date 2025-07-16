@@ -4,7 +4,7 @@
   align-items: center;
   height: calc(100vh - 70px);
   margin-top: 70px; 
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #3A4D2A, #4F683A, #64824A);
   color: #fff;
   text-align: center;
   padding: 0 20px;
@@ -52,11 +52,11 @@
 }
 
 .btn-primary {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color: white;
+  border-color: #3ba00d;
 }
