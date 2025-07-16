@@ -10,6 +10,7 @@ import { CommonModule, ViewportScroller } from '@angular/common';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  isMenuOpen = false;
 
   constructor(private router: Router, private viewportScroller: ViewportScroller) { }
 
@@ -17,5 +18,9 @@ export class HeaderComponent {
     this.router.navigateByUrl('/').then(() => {
       this.viewportScroller.scrollToPosition([0, 0]);
     });
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }

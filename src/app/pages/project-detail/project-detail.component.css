@@ -99,10 +99,42 @@
 }
 
 @media (max-width: 768px) {
-  .project-overview {
-    flex-direction: column;
+  .project-detail-container {
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  .project-info {
-    margin-top: 30px;
+
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-info p,
+  .project-info ul li {
+    font-size: 1rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .tech-icon {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .screenshots-section .screenshot-item {
+    height: 200px;
+  }
+
+  .project-links .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-links .btn {
+    margin-right: 0;
   }
 }

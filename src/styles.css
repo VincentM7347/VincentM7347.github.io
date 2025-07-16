@@ -1,3 +1,10 @@
+/* Universal box-sizing for easier responsive layouts */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,6 +24,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   line-height: 1.2;
   letter-spacing: -0.02em;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remove extra space below images */
 }
 
 @keyframes fadeIn {

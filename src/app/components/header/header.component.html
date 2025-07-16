@@ -1,7 +1,12 @@
 <nav class="navbar">
   <div class="navbar-container">
     <a class="navbar-brand" (click)="scrollToHomeTop()"><img src="assets/favicon.ico" alt="Favicon" class="navbar-favicon"></a>
-    <div class="navbar-links">
+    <button class="hamburger-menu" (click)="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div class="navbar-links" [ngClass]="{'open': isMenuOpen}">
       <a class="nav-link" (click)="scrollToHomeTop()">Home</a>
       <a class="nav-link" href="/#projects-section" routerLinkActive="active">Projekte</a>
       <a class="nav-link" href="/#about-section" routerLinkActive="active">Über mich</a>
