@@ -1,0 +1,68 @@
+.about-container {
+  padding: 100px 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.about-header p.lead {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.skill-card {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.skill-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0056b3;
+}
+
+

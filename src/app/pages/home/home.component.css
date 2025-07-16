@@ -1,0 +1,4 @@
+app-projects {
+  display: block; /* Ensures margin-top works correctly */
+  margin-top: 80px; /* Adjust this value as needed */
+}

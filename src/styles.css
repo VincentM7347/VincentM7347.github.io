@@ -1,3 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 main {
-  margin-top: 80px; /* Adjust this value based on the height of your header */
+  /* margin-top: 80px; Adjust this value based on the height of your header */
+}
+
+/* Global Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base style for elements using FadeInOnScrollDirective */
+[appFadeInOnScroll] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+[appFadeInOnScroll].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Light Mode (Default) */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand, .nav-link {
+  color: #212529;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #212529;
 }

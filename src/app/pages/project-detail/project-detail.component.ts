@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProjectService } from '../../services/project.service';
-import { CommonModule } from '@angular/common';
+import { CommonModule, Location } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
@@ -18,7 +18,8 @@ export class ProjectDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute, 
     private projectService: ProjectService,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private location: Location
   ) { }
 
   ngOnInit(): void {
@@ -29,5 +30,9 @@ export class ProjectDetailComponent implements OnInit {
         this.safeScreencastUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.project.screencastUrl);
       }
     }
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 }

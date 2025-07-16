@@ -1,0 +1,27 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.8); /* Same as header */
+  color: #f0f0f0; /* Off-white for text */
+  padding: 15px 0; /* Smaller padding */
+  font-size: 0.9rem; /* Smaller font size */
+  border-top: 1px solid #333; /* Subtle top border */
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #f0f0f0; /* Link color matches text */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #00aaff; /* Subtle hover effect */
+}

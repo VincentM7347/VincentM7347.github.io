@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-// 1. Importiere alle Komponenten, die du verwenden möchtest
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -9,11 +8,10 @@ import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true, // Wichtig: Deine Komponente ist "standalone"
+  standalone: true, 
   imports: [
-    RouterOutlet, // Standardmäßig vorhanden
+    RouterOutlet, 
 
-    // 2. Füge alle importierten Komponenten hier hinzu
     HeaderComponent,
     FooterComponent
   ],
