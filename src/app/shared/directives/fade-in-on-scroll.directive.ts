@@ -19,7 +19,7 @@ export class FadeInOnScrollDirective implements OnInit, OnDestroy {
           this.observer.unobserve(this.el.nativeElement); // Stop observing once visible
         }
       });
-    }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+    }, { threshold: 0.9 }); // Trigger when 10% of the element is visible
 
     this.observer.observe(this.el.nativeElement);
   }

@@ -1,0 +1,56 @@
+.contact-container {
+  padding: 60px 0;
+  max-width: 900px;
+  margin: 80px auto 40px auto; /* Adjust margin-top for header */
+}
+
+.social-media-section {
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.social-media-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 50px; /* Pill shape */
+  transition: all 0.3s ease;
+  color: #fff; /* Text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon i {
+  margin-right: 8px;
+  font-size: 1.3rem;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Specific colors for GitHub and LinkedIn */
+.social-icon[href*="github.com"] {
+  background-color: #333;
+}
+
+.social-icon[href*="linkedin.com"] {
+  background-color: #0077B5;
+}
+
+.social-icon[href*="github.com"]:hover {
+  background-color: #555;
+}
+
+.social-icon[href*="linkedin.com"]:hover {
+  background-color: #005f99;
+}

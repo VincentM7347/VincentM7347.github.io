@@ -44,7 +44,6 @@
 .skill-card h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #007bff;
   margin-bottom: 1rem;
 }
 
@@ -53,16 +52,22 @@
   color: #666;
 }
 
-.social-icon {
-  font-size: 1.5rem;
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 15px;
-  transition: color 0.3s ease;
+
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
 }
 
-.social-icon:hover {
-  color: #0056b3;
+.skill-icons img {
+  width: 40px !important; /* Ensure consistent size */
+  height: 40px !important; /* Ensure consistent size */
+  transition: transform 0.3s ease;
 }
 
-
+.skill-icons img:hover {
+  transform: scale(1.1);
+}
