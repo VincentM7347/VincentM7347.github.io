@@ -1,5 +1,5 @@
 .about-container {
-  padding: 100px 0;
+  padding: 60px 0;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -16,11 +16,13 @@
   font-size: 3rem;
   font-weight: 700;
   color: #333;
+  margin-bottom: 1.5rem;
 }
 
 .about-header p.lead {
   font-size: 1.25rem;
   color: #555;
+  margin-bottom: 2rem;
 }
 
 .about-content p {
@@ -44,6 +46,7 @@
 .skill-card h3 {
   font-size: 1.5rem;
   font-weight: 600;
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
 

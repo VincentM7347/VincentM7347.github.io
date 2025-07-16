@@ -2,8 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --accent-color: #007bff; /* Define your accent color */
+}
+
 body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 main {
@@ -47,6 +60,10 @@ body {
 
 .navbar-brand, .nav-link {
   color: #212529;
+}
+
+.nav-link.active {
+  color: var(--accent-color);
 }
 
 .card {

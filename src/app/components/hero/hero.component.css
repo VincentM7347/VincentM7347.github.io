@@ -17,7 +17,7 @@
 .hero-title {
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 0.5s;
@@ -51,4 +51,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

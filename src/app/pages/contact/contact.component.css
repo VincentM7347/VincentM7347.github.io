@@ -1,17 +1,17 @@
 .contact-container {
-  padding: 60px 0;
+  padding: 40px 0;
   max-width: 900px;
   margin: 0 auto 40px auto; /* No top margin */
 }
 
 .social-media-section {
-  margin-top: 50px; /* Adjust as needed */
+  margin-top: 40px; /* Adjust as needed */
 }
 
 .social-media-section h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .social-icon {
