@@ -65,7 +65,7 @@ export class ProjectService {
         { name: 'MongoDB', iconPath: 'assets/icons/mongodb.png' }
       ],
       liveUrl: null, 
-      githubUrl: 'https://github.com/dein-name/projekt-beta'
+      githubUrl: 'https://github.com/VincentM7347/cactus-diary-spa'
     },
      {
       title: 'Neptun Online-Shop',
@@ -101,7 +101,7 @@ export class ProjectService {
         { name: 'AndroidStudio', iconPath: 'assets/icons/androidstudio.svg' },
       ],
       liveUrl: null, 
-      githubUrl: 'https://github.com/dein-name/projekt-beta'
+      githubUrl: 'https://github.com/VincentM7347/online-shop-product-service'
     }
   ];
 

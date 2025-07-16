@@ -14,8 +14,11 @@
               <p class="card-text">{{ project.description }}</p>
             </div>
             <div class="card-footer bg-white border-top-0">
-              <div class="d-flex flex-wrap">
-                  <span *ngFor="let tech of project.technologies" class="badge bg-secondary me-2 mb-2">{{ tech }}</span>
+              <div class="d-flex flex-wrap align-items-center">
+                <ng-container *ngFor="let tech of project.technologies">
+                  <img *ngIf="tech.iconPath" [src]="tech.iconPath" [alt]="tech.name" class="tech-icon me-2 mb-2" title="{{ tech.name }}">
+                  <span *ngIf="!tech.iconPath" class="badge bg-secondary me-2 mb-2">{{ tech.name }}</span>
+                </ng-container>
               </div>
             </div>
           </div>

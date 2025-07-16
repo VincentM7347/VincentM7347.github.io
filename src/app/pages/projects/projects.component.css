@@ -43,3 +43,9 @@ a {
 .section-bg-light {
   margin-top: 100px; 
 }
+
+.tech-icon {
+  height: 24px; /* Adjust size as needed */
+  width: 24px; /* Adjust size as needed */
+  object-fit: contain;
+}
