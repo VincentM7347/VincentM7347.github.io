@@ -1,11 +1,11 @@
 .contact-container {
   padding: 40px 0;
   max-width: 900px;
-  margin: 0 auto 40px auto; /* No top margin */
+  margin: 0 auto 40px auto; 
 }
 
 .social-media-section {
-  margin-top: 40px; /* Adjust as needed */
+  margin-top: 40px;
 }
 
 .social-media-section h2 {
@@ -22,9 +22,9 @@
   text-decoration: none;
   margin: 0 10px;
   padding: 10px 20px;
-  border-radius: 50px; /* Pill shape */
+  border-radius: 50px;
   transition: all 0.3s ease;
-  color: #fff; /* Text color */
+  color: #fff; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,7 +38,6 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Specific colors for GitHub and LinkedIn */
 .social-icon[href*="github.com"] {
   background-color: #333;
 }

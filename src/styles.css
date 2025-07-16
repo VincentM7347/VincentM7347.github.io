@@ -3,7 +3,7 @@ html {
 }
 
 :root {
-  --accent-color: #007bff; /* Define your accent color */
+  --accent-color: #007bff; 
 }
 
 body {
@@ -19,11 +19,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-main {
-  /* margin-top: 80px; Adjust this value based on the height of your header */
-}
-
-/* Global Fade-In Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -35,19 +30,17 @@ main {
   }
 }
 
-/* Base style for elements using FadeInOnScrollDirective */
 [appFadeInOnScroll] {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(20px) rotateX(-10deg) scale(0.95);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 [appFadeInOnScroll].is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) rotateX(0deg) scale(1);
 }
 
-/* Light Mode (Default) */
 body {
   background-color: #f8f9fa;
   color: #212529;

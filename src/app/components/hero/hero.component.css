@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 70px); /* Adjust based on actual header height */
-  margin-top: 70px; /* Position below fixed header */
+  height: calc(100vh - 70px);
+  margin-top: 70px; 
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: #fff;
   text-align: center;

@@ -66,8 +66,8 @@
 }
 
 .skill-icons img {
-  width: 40px !important; /* Ensure consistent size */
-  height: 40px !important; /* Ensure consistent size */
+  width: 40px !important; 
+  height: 40px !important; 
   transition: transform 0.3s ease;
 }
 

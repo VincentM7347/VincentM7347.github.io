@@ -1,8 +1,8 @@
 app-projects {
-  display: block; /* Ensures margin-top works correctly */
-  margin-top: 80px; /* Adjust this value as needed */
+  display: block;
+  margin-top: 80px; 
 }
 
 #projects-section {
-  scroll-margin-top: 80px; /* Adjust this value to be slightly more than your header height */
+  scroll-margin-top: 80px; 
 }

@@ -6,11 +6,24 @@
 
     <div class="row project-overview mb-5">
       <div class="col-md-12 project-info">
-        <p class="lead"></p>
-        <p>{{ project.longDescription }}</p>
+        <h2 class="section-heading">Kurzbeschreibung</h2>
+        <p>{{ project.shortDescription }}</p>
+
+        <h2 class="section-heading mt-5">Architektur</h2>
+        <ul>
+          <li *ngFor="let architecture of project.architecture">{{ architecture }}</li>
+        </ul>
+
+        <h2 class="section-heading mt-5">Kernfeatures</h2>
+        <ul>
+          <li *ngFor="let feature of project.coreFeatures">{{ feature }}</li>
+        </ul>
+
+        <h2 class="section-heading mt-5">Verwendeter Tech Stack</h2>
         <div class="technologies mt-4">
-          <span *ngFor="let tech of project.technologies" class="badge bg-info text-dark me-2 mb-2">{{ tech }}</span>
+          <img *ngFor="let tech of project.technologies" [src]="tech.iconPath" [alt]="tech.name" class="tech-icon me-2 mb-2">
         </div>
+
         <div class="project-links mt-4">
           <a *ngIf="project.liveUrl" [href]="project.liveUrl" target="_blank" class="btn btn-primary me-2">Live Demo</a>
           <a *ngIf="project.githubUrl" [href]="project.githubUrl" target="_blank" class="btn btn-secondary">GitHub</a>

@@ -24,6 +24,14 @@
   color: var(--accent-color);
   text-decoration: none;
   cursor: pointer;
+  display: flex; 
+  align-items: center;
+}
+
+.navbar-favicon {
+  height: 1.9rem; 
+  width: 1.9rem; 
+  margin-right: 8px; 
 }
 
 .navbar-links {
@@ -46,4 +54,3 @@
 .nav-link.active {
   color: var(--accent-color);
 }
-

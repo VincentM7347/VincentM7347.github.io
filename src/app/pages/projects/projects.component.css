@@ -40,7 +40,6 @@ a {
   object-fit: cover;
 }
 
-/* Add margin-top to the main section of the projects page */
 .section-bg-light {
-  margin-top: 100px; /* Adjust this value as needed */
+  margin-top: 100px; 
 }
