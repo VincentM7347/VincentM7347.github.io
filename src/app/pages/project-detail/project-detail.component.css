@@ -104,6 +104,26 @@
   height: 100%;
 }
 
+/* New styles for the back button */
+.btn-back-arrow {
+  background-color: var(--accent-color); /* Use accent color */
+  color: #fff; /* White icon */
+  border: none;
+  border-radius: 50%; /* Make it round */
+  width: 45px; /* Square dimensions for a circle */
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem; /* Size of the arrow icon */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-back-arrow:hover {
+  background-color: darken(var(--accent-color), 10%); /* Darken on hover */
+  transform: translateX(-5px); /* Slight move left on hover */
+}
+
 @media (max-width: 768px) {
   .project-detail-container {
     padding-top: 80px;

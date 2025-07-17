@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProjectService } from '../../services/project.service';
+import { Project, ProjectService } from '../../services/project.service';
 import { RouterModule } from '@angular/router';
 import { FadeInOnScrollDirective } from '../../shared/directives/fade-in-on-scroll.directive';
 
@@ -12,11 +12,13 @@ import { FadeInOnScrollDirective } from '../../shared/directives/fade-in-on-scro
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects: any[] = [];
+  projects: Project[] = [];
 
   constructor(private projectService: ProjectService) { }
 
   ngOnInit(): void {
-    this.projects = this.projectService.getProjects();
+    this.projectService.getProjects().subscribe(projects => {
+      this.projects = projects;
+    });
   }
 }

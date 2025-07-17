@@ -1,16 +1,15 @@
-<nav class="navbar">
+<nav class="navbar" [class.scrolled]="isScrolled">
   <div class="navbar-container">
-    <a class="navbar-brand" (click)="scrollToHomeTop()"><img src="assets/favicon.ico" alt="Favicon" class="navbar-favicon"></a>
+    <a class="navbar-brand" (click)="scrollToHomeTop()"><img src="assets/favicon.png" alt="Favicon" class="navbar-favicon"></a>
     <button class="hamburger-menu" (click)="toggleMenu()">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </button>
     <div class="navbar-links" [ngClass]="{'open': isMenuOpen}">
-      <a class="nav-link" (click)="scrollToHomeTop()">Home</a>
-      <a class="nav-link" href="/#projects-section" routerLinkActive="active">Projekte</a>
-      <a class="nav-link" href="/#about-section" routerLinkActive="active">Über mich</a>
-      <a class="nav-link" href="/#contact-section" routerLinkActive="active">Kontakt</a>
+      <a class="nav-link" href="/#projects-section" routerLinkActive="active" (click)="closeMenu()">Projekte</a>
+      <a class="nav-link" href="/#about-section" routerLinkActive="active" (click)="closeMenu()">Über mich</a>
+      <a class="nav-link" href="/#contact-section" routerLinkActive="active" (click)="closeMenu()">Kontakt</a>
     </div>
   </div>
 </nav>
