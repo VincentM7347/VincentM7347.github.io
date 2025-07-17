@@ -2,7 +2,7 @@
 [
     {
       "title": "Notely",
-      "description": "Notely ist eine einfache und effiziente Notiz-App, die das schnelle Erfassen und Verwalten von Notizen ermöglicht. Ideal für den täglichen Gebrauch.",
+      "description": "Eine einfache und effiziente Notiz-App, die das schnelle Erfassen und Verwalten von Notizen ermöglicht. Ideal für den täglichen Gebrauch.",
       "shortDescription": "Dies ist eine einfache, aber voll funktionsfähige Single-Page-Application (SPA) zur Verwaltung von persönlichen Notizen. Die Anwendung ermöglicht das Erstellen, Anzeigen, Bearbeiten und Löschen von Notizen in einer reaktiven und benutzerfreundlichen Oberfläche. Dieses Projekt war ein persönliches Projekt, das ich in meiner Freizeit entwickelt habe, um meine Fähigkeiten in Vue.js zu verbessern.",
       "architecture": [
         "Die Anwendung ist als reine Frontend-SPA aufgebaut:",
@@ -24,14 +24,14 @@
         { "name": "Vue.js", "iconPath": "assets/icons/vuejs.png" },
         { "name": "JavaScript", "iconPath": "assets/icons/javascript.svg" },
         { "name": "CSS", "iconPath": "assets/icons/css.svg" },
-        { "name": "Local Storage", "iconPath": "assets/icons/html.svg" } 
+        { "name": "HTML", "iconPath": "assets/icons/html.svg" } 
       ],
       "liveUrl": "https://vincentm7347.github.io/vue-notes-app/",
       "githubUrl": "https://github.com/VincentM7347/vue-notes-app" 
     },
     {
       "title": "Cactus Diary",
-      "description": "Cactus Diary ist eine umfassende Tagebuchanwendung, die Benutzern einen sicheren und personalisierten Raum für ihre Gedanken bietet.",
+      "description": "Eine umfassende Tagebuchanwendung, die Benutzern einen sicheren und personalisierten Raum für ihre Gedanken bietet.",
       "shortDescription": "Dieses Projekt ist eine Full-Stack-Webanwendung zur Erstellung und Verwaltung von digitalen Tagebucheinträgen. Die Anwendung ist als moderne Single-Page-Application (SPA) konzipiert, die eine reaktive und schnelle Benutzererfahrung ohne ständiges Neuladen der Seite ermöglicht. Dies war ein Hochschulprojekt und ich habe es mit einem Team von 3 Personen entwickelt. Mein Beitrag umfasste die Implementierung des Dashboards, die Einzelansicht der Einträge und das Abrufen der Einträge von der API.",
       "architecture": ["Die Anwendung folgt einer klassischen Client-Server-Architektur: ",
         "Frontend (Client): Eine im Browser ausgeführte Single-Page-App, die mit LitElement entwickelt wurde. Sie ist für die gesamte Darstellung und Interaktion mit dem Benutzer zuständig.",
@@ -51,19 +51,20 @@
       ],
       "screencastUrl": "https://www.youtube.com/embed/gN7N5fSt-S0",
       "technologies": [
-        { "name": "HTML5", "iconPath": "assets/icons/html.svg" },
-        { "name": "CSS3", "iconPath": "assets/icons/css.svg" },
+  
         { "name": "Lit", "iconPath": "assets/icons/lit.svg" },
         { "name": "NodeJS", "iconPath": "assets/icons/nodejs.svg" },
         { "name": "Express", "iconPath": "assets/icons/express.svg" },
-        { "name": "MongoDB", "iconPath": "assets/icons/mongodb.png" }
+        { "name": "MongoDB", "iconPath": "assets/icons/mongodb.png" },
+        { "name": "HTML5", "iconPath": "assets/icons/html.svg" },
+        { "name": "CSS3", "iconPath": "assets/icons/css.svg" }
       ],
       "liveUrl": null, 
       "githubUrl": "https://github.com/VincentM7347/cactus-diary-spa"
     },
      {
       "title": "Neptun Online-Shop",
-      "description": "Neptun ist ein voll funktionsfähiger Online-Shop für Elektronikartikel, welcher als Android App realisier wurde. ",
+      "description": "Ein voll funktionsfähiger Online-Shop für Elektronikartikel, welcher als Android App realisiert wurde. ",
       "shortDescription": "Dieses Projekt entstand im Rahmen eines Hochschulprojekts, das von einem Team aus fünf Studierenden entwickelt wurde. Es handelt sich hierbei um den Product-Service, einen von fünf zentralen Microservices einer umfassenden E-Commerce-Plattform. Als Kernkomponente ist dieser Service für die Verwaltung aller produktbezogenen Daten – wie Produkte, Kategorien und Wunschlisten – zuständig. Er wurde als Spring Boot Anwendung realisiert und stellt eine saubere, zustandslose REST-API bereit. Die weiteren vier Services, die im Rahmen des Gesamtprojekts entwickelt wurden, sind: UserService (Nutzerverwaltung), ReviewService (Produktbewertungen), SearchAndRecommendationService (Suche und Empfehlungen), OrderService (Bestellabwicklung). ",
       "architecture": [
         "Die Anwendung folgt modernen Architekturprinzipien, um Skalierbarkeit und Wartbarkeit zu gewährleisten:",
@@ -96,5 +97,34 @@
       ],
       "liveUrl": null, 
       "githubUrl": "https://github.com/VincentM7347/online-shop-product-service"
-    }
+    },
+     {
+    "title": "Portfolio Website",
+    "description": "Dies ist die Portfolio-Website, die Sie gerade ansehen. Sie dient als zentrale Anlaufstelle, um meine Fähigkeiten und Projekte zu präsentieren.",
+    "shortDescription": "Die Website wurde als moderne Single-Page-Application (SPA) mit Angular entwickelt, um eine schnelle, reaktive und ansprechende Benutzererfahrung zu gewährleisten. Sie ist vollständig responsiv und so konzipiert, dass sie meine Arbeit klar und professionell darstellt. Das Projekt zeigt meine Fähigkeiten in der Frontend-Entwicklung mit einem Fokus auf Clean Code, komponentenbasierter Architektur und guter User Experience.",
+    "architecture": [
+      "Komponenten-Architektur: Die Anwendung ist modular in wiederverwendbare Angular-Komponenten aufgebaut, um eine klare Struktur und hohe Wartbarkeit zu gewährleisten.",
+      "Service-Schicht: Projektdaten und andere Logiken sind in Angular-Services gekapselt, um die Komponenten schlank zu halten und die Geschäftslogik zu zentralisieren.",
+      "Client-seitiges Routing: Die Navigation zwischen den Seiten wird von Angulars Router übernommen, was nahtlose Übergänge ohne Neuladen der Seite ermöglicht."
+    ],
+    "coreFeatures": [
+      "Dynamisches Laden von Projektdaten aus einer JSON-Datei",
+      "Vollständig responsives Design für Desktops, Tablets und Smartphones",
+      "Klare und intuitive Benutzeroberfläche zur Präsentation von Projekten",
+      "Interaktive Elemente und flüssige Animationen"
+    ],
+    "imageUrl": "assets/portfolio.png",
+    "screenshots": [
+    ],
+    "screencastUrl": null,
+    "technologies": [
+      { "name": "Angular", "iconPath": "assets/icons/angular.png" },
+      { "name": "TypeScript", "iconPath": "assets/icons/typescript.svg" },
+      { "name": "CSS", "iconPath": "assets/icons/css.svg" },
+      { "name": "Bootstrap", "iconPath": "assets/icons/bootstrap.svg" },
+      { "name": "HTML5", "iconPath": "assets/icons/html.svg" }
+    ],
+    "liveUrl": "https://www.vmdev.me/",
+    "githubUrl": "https://github.com/VincentM7347/portfolio"
+  }
 ]
