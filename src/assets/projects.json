@@ -121,8 +121,9 @@
       { "name": "Angular", "iconPath": "assets/icons/angular.png" },
       { "name": "TypeScript", "iconPath": "assets/icons/typescript.svg" },
       { "name": "CSS", "iconPath": "assets/icons/css.svg" },
-      { "name": "Bootstrap", "iconPath": "assets/icons/bootstrap.svg" },
-      { "name": "HTML5", "iconPath": "assets/icons/html.svg" }
+      { "name": "HTML5", "iconPath": "assets/icons/html.svg" },
+      { "name": "Bootstrap", "iconPath": "assets/icons/bootstrap.svg" }
+
     ],
     "liveUrl": "https://www.vmdev.me/",
     "githubUrl": "https://github.com/VincentM7347/portfolio"
